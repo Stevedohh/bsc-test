@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BSC Swap - Test Task
 
-## Getting Started
+This is a test task for a crypto company, implementing **decentralized token swapping in the Binance Smart Chain (BSC) network**.
 
-First, run the development server:
+## 🚀 Project Description
 
+The application allows token swapping on the BSC network using the **1inch aggregator** to get the best exchange rates. The project is built with a modern Web3 development technology stack.
+
+## 🛠 Technologies
+
+### Frontend Framework
+- **Next.js 15.4.4** - React framework with App Router
+- **React 19.1.0** - library for building user interfaces
+- **TypeScript** - typed JavaScript
+- **Tailwind CSS 4** - CSS framework for styling
+
+### Web3 Stack
+- **Wagmi 2.16.0** - React hooks for Ethereum
+- **Viem 2.33.1** - modern library for blockchain interactions
+- **Ethers 6.15.0** - library for Ethereum interactions
+- **Reown AppKit 1.7.16** - wallet connection solution (formerly WalletConnect)
+
+### Additional Libraries
+- **TanStack React Query 5.83.0** - state management and API request caching
+- **Radix UI** - components for building accessible UI
+- **Axios 1.11.0** - HTTP client for API requests
+- **Lucide React** - icons
+
+## 📋 Requirements
+
+**Important!** Node.js version must be exactly **^20.19.0**
+
+Check Node.js version:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Installation and Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository and navigate to the project folder**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+   Alternative commands are also available:
+   ```bash
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open the application:**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
