@@ -49,15 +49,6 @@ node --version
    npm run dev
    ```
 
-   Alternative commands are also available:
-   ```bash
-   yarn dev
-   # or
-   pnpm dev
-   # or
-   bun dev
-   ```
-
 4. **Open the application:**
    
    Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
